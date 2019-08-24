@@ -11,16 +11,16 @@ with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.md'),
     long_description = f.read()
 
 setup(
-	name='montudor-test-repo',
-	packages=find_packages(),
-	version='0.0.3',
-	description='A regular hello world library',
+    name='montudor-test-repo',
+    packages=find_packages(),
+    version='0.0.4',
+    description='A regular hello world library',
     long_description=long_description,
     long_description_content_type='text/markdown',
-	author='Monte Hellawell',
-	author_email='monte@montudor.com',
-	url='https://github.com/montudor/test-py-deploy',
-	download_url='https://github.com/montudor/test-py-deploy/archive/v0.0.3.tar.gz',
-	keywords=[],
-	classifiers=[]
+    author='Monte Hellawell',
+    author_email='monte@montudor.com',
+    url='https://github.com/montudor/test-py-deploy',
+    download_url='https://github.com/montudor/test-py-deploy/archive/v0.0.4.tar.gz',
+    keywords=[],
+    classifiers=[]
 )
