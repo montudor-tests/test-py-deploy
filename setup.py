@@ -13,14 +13,14 @@ with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.md'),
 setup(
     name='montudor-test-repo',
     packages=find_packages(),
-    version='0.0.4',
+    version='0.0.5',
     description='A regular hello world library',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Monte Hellawell',
     author_email='monte@montudor.com',
     url='https://github.com/montudor/test-py-deploy',
-    download_url='https://github.com/montudor/test-py-deploy/archive/v0.0.4.tar.gz',
+    download_url='https://github.com/montudor/test-py-deploy/archive/v0.0.5.tar.gz',
     keywords=[],
     classifiers=[]
 )
